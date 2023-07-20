@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+body {
+    font-family:'Bacasime Antique', serif;
+    margin: 0;
+}
+
+.header1, .header2, .header3{
+    display: inline-block;
+}
+
+.header1 img{
+    width: 250px;
+    height: 180px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+
+.menu-responsive div{
+    margin: 8px;
+    width: 60px;
+    height: 12px;
+    display: none;
+    background-color:rgb(245, 75, 140);
+}
+
+.header2{
+    position: relative;
+    bottom: 100px;
+    left: 500px;
+}
+
+.header2 li{
+    list-style-type: none;
+    display: inline;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header2 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(245, 75, 140);
+}
+
+.header2 a:hover{
+    color: black;
+}
+
+.header3{
+    position: relative;
+    bottom: 100px;
+    left: 600px;
+}
+
+.header3 form {
+    display: flex;
+}
+
+.header3 input {
+    font-size: 30px;
+    padding: 8px 15px;
+    border: 1px solid #999999;
+    outline: 0;
+    width: 350px;
+    height: 30px;
+}
+
+.header3 button {
+    border: 0;
+    background: transparent;
+    margin-left: -45px;
+    cursor: pointer;
+}
+
+.header3 button img {
+    width: 30px;
+    height: 30px;
+}
+
+.subscribe{
+    background-color:  rgb(245, 75, 140);
+    color:white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.subscrive, p{
+    font-size: 40px;
+}
+.subscribe input{
+    height: 50px;
+    width: 450px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.subscribe button{
+    font-size: 30px;
+    background-color:rgb(245, 75, 140);
+    color:white;
+    border: 5px solid white;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.subscribe button:hover{
+    background-color: white;
+    color: rgb(245, 75, 140);
+}
+
+.receitas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.receitas h1{
+    font-size: 70px;
+}
+
+.receitas div{
+    width: 2200px;
+    height: auto;
+    border: 10px solid rgb(245, 75, 140);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.receitas h2{
+    text-align: center;
+    background-color: rgb(245, 75, 140);
+    color: white;
+    width: 2250px;
+    position: relative;
+    right: 20px;
+    bottom: 70px;
+}
+
+.receitas li{
+    font-weight: bold;
+}
+
+.receita1, .receita2, .receita3, .receita4{
+    font-size: 40px;
+    text-align: justify;
+}
+
+.receitas img{
+    width: 750px;
+    height: 550px;
+    position: absolute;
+    right: 1000px;
+    left: 1722px;
+}
+
+footer{
+    background-color:  rgb(245, 75, 140);
+    height: 200px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* tablet e smartphone */
+@media (max-width: 768px){
+    .header1 img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .menu-responsive div{
+        display: block;
+    } 
+
+    .header2{
+        display: none;
+        position: absolute;
+        left:0px;
+        top: 0px;
+        z-index: 1;
+        background-color: rgb(245, 75, 140);
+        height: 170%;
+    }
+
+    .header2 li{
+        display: block;
+        font-size: 25px;
+        padding: 40px 100px;
+        border-bottom: 2px solid white;
+        position: relative;
+        top: 50px;
+        right: 3%;
+        text-align: center;
+    }
+
+    .header2 a{
+        color:white;
+    }
+
+    .header3 {
+        display: none;
+    }
+
+    .subscribe{
+        position: relative;
+        right: 20px;
+    }
+
+    .subscribe button{
+        margin-bottom: 20px;
+        border: 2px solid white;
+    }
+
+    .receitas div{
+        border: 5px solid rgb(245, 75, 140);
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+    body{
+        width: 600px;
+    }
+    header{
+        height: 140px;
+        width: 770px;
+    }
+
+    .header1 img{
+        position: relative;
+        left: 20px;
+        top: 0;
+    }
+
+    .bar{
+        position: relative;
+        bottom: 100px;
+        left: 600px;
+    }
+
+    .subscribe{
+        width: 132%;
+    }
+
+    .subscribe p{
+        font-size: 30px;
+    }
+
+    .subscribe input{
+        width: 85%;
+    }
+
+    .receitas h1{
+        font-size: 35px;
+        text-align: center;
+        position: relative;
+        left: 70px;
+    }
+
+    .receitas div{
+        width: 650px;
+        position: relative;
+        left: 85px;
+    }
+
+    .receitas h2{
+        font-size: 35px;
+        margin-bottom: 280px;
+        width: 500px;
+        position: relative;
+        left: 75px;
+        top: 0;
+    }
+
+    .receitas h3, .receitas li{
+        font-size:30px;
+    }
+
+    .receitas img{
+        position: absolute;
+        left: 85px;
+        top: 75px;
+        width: 500px;
+        height:250px;
+    }
+
+    footer{
+        height: 100px;
+        width: 770px;
+    }
+
+    footer p{
+        font-size: 20px;
+        position: relative;
+        bottom: 60px; 
+    }
+}
+
+/* smartphone */
+@media (max-width: 480px){
+    header{
+        height: 140px;
+        width: 470px;
+    }
+
+    .header1 img{
+        position: relative;
+        left: 10px;
+        top: 0;
+    }
+
+    .bar{
+        position: relative;
+        left: 340px;
+        bottom: 100px;
+    }
+
+    .subscribe{
+        width: 110%;
+    }
+
+    .subscribe p{
+        font-size: 25px;
+    }
+
+    .subscribe input{
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .receitas h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .receitas div{
+        width: 420px;
+        position: relative;
+        left: 10px;
+    }
+
+    .receitas h2{
+        font-size: 25px;
+        margin-bottom: 200px;
+        width: 400px;
+        position: relative;
+        left: 10px;
+        top: 0;
+    }
+
+    .receitas h3, .receitas li{
+        font-size: 20px;
+    }
+
+    .receitas img{
+        position: absolute;
+        left: 20px;
+        top: 55px;
+        width: 400px;
+        height:180px;
+    }
+
+    footer{
+        height: 100px;
+        width: 480px;
+    }
+
+    footer p{
+        font-size: 15px;
+        position: relative;
+        bottom: 60px; 
+    }
+}
