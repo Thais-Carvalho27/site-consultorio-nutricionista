@@ -12,7 +12,7 @@ O site possui as seguintes funcionalidades:
 
 4. Cadastro para receber conteúdos exclusivos: Os usuários têm a opção de se cadastrarem para receberem por e-mail, periodicamente, boletins informativos relacionados à nutrição e estilo de vida saudável.
 
-Neste projeto estão sendo utilizadas as tecnologias: HTML5 e CSS3.
+Neste projeto estão sendo utilizadas as tecnologias: HTML5, CSS3 e JavaScript.
 
 O site é responsivo para smartphones e tablets.
 
