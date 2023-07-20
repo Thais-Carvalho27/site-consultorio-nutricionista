@@ -15,3 +15,5 @@ O site possui as seguintes funcionalidades:
 Neste projeto estão sendo utilizadas as tecnologias: HTML5 e CSS3.
 
 O site é responsivo para smartphones e tablets.
+
+Link para conferir o projeto no ar: https://thais-carvalho27.github.io/site-consultorio-nutricionista/index.html
